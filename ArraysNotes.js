@@ -23,3 +23,8 @@ console.log(utensils);
 // OUTPUT: [ 'Mayo', 'Mustard', 'Soy Sauce', 'Sriracha' ]
 // [ 'Mayo' ]
 // [ 'Fork', 'Knife', 'Chopsticks', 'Spoon' ]
+
+// .length Property
+const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
+console.log(objectives.length);
+// output: 3
