@@ -28,3 +28,13 @@ console.log(utensils);
 const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
 console.log(objectives.length);
 // output: 3
+
+// push() Method
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+chores.push('shovel','clean');
+console.log(chores);
+// OUTPUT:[ 'wash dishes',
+//   'do laundry',
+//   'take out trash',
+//   'shovel',
+//   'clean' ]
