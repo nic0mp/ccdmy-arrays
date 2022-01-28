@@ -38,3 +38,19 @@ console.log(chores);
 //   'take out trash',
 //   'shovel',
 //   'clean' ]
+
+// pop()
+const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+chores.pop();
+console.log(chores)
+// OUTPUT: [ 'wash dishes', 'do laundry', 'take out trash', 'cook dinner' ]
+
+// more Array methods
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+groceryList.shift();
+groceryList.unshift('popcorn');
+// groceryList.slice([0,1,2]);
+console.log(groceryList.slice(1, 4));
+console.log(groceryList);
+const pastaIndex = groceryList.indexOf('pasta');
+console.log(pastaIndex);
