@@ -3,4 +3,8 @@ secretMessage.pop();
 secretMessage.push('to', 'Program');
 secretMessage[7] = 'right';
 // secretMessage[secretMessage.indexOf('easily')] = 'right';
-console.log(secretMessage.indexOf('first'))
+secretMessage.shift();
+secretMessage.unshift('Programming');
+secretMessage.splice(6, 5, 'know,');
+// replaces 5 elements at index 6 with 'know,'
+console.log(secretMessage.join())
